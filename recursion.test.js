@@ -1,9 +1,12 @@
 /* Write a function to do the division operation without using the built-in division*/
 
+
+
+
+
+
 function division(number, dividedBy) {
     // Write you logic here.
-
-
     //calc sign
     let x = `${(number < 0) ^ (dividedBy < 0)}`;
     let sign;
@@ -27,7 +30,11 @@ function division(number, dividedBy) {
 
     if (sign == -1) { result *= -1 };
     return result;
+
 }
+
+
+
 
 
 
